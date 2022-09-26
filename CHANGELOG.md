@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 1.1.2
+- Add `<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />`
+
 ## 1.1.1
 - I changed my Github Username --> Links & Android Package Name adjusted
 

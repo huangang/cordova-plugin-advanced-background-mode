@@ -3,14 +3,14 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-advanced-background-mode"
-        version="1.1.1">
+        version="1.1.2">
 
     <name>BackgroundMode</name>
     <description>Prevent apps from going to sleep in background.</description>
-    <repo>https://github.com/EinfachHans/cordova-plugin-advanced-background-mode</repo>
+    <repo>https://github.com/huangang/cordova-plugin-advanced-background-mode</repo>
     <keywords>cordova, background, mode</keywords>
     <license>Apache 2.0</license>
-    <author>EinfachHans</author>
+    <author>huangang</author>
 
     <!-- dependencies -->
     <dependency id="cordova-plugin-device" />
@@ -71,6 +71,7 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.WAKE_LOCK" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
         </config-file>
 
         <source-file
