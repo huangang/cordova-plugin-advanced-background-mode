@@ -1,7 +1,7 @@
 Cordova Background Plugin
 =========================
 ![Maintenance](https://img.shields.io/maintenance/yes/2020)
-[![npm version](https://badge.fury.io/js/cordova-plugin-advanced-background-mode.svg)](https://badge.fury.io/js/cordova-plugin-advanced-background-mode)
+[![npm version](https://badge.fury.io/js/@huangang/cordova-plugin-advanced-background-mode.svg)](https://badge.fury.io/js/@huangang/cordova-plugin-advanced-background-mode)
 
 Plugin for the [Cordova](https://cordova.apache.org) framework to perform infinite background execution.
 
